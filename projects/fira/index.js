@@ -1,11 +1,11 @@
 const ADDRESSES = require('../helper/coreAssets.json')
 const { sumTokensExport } = require("../helper/unwrapLPs")
 
-const bUSD0Token = "0x35D8949372D46B7a3D5A56006AE77B215fc69bC0";
-const fwUSDC = '0x62F5366C9E21A95326C461a098a408e034e017b3'
+const bUSD0Token = "0x46531ea0E7cec64b14181d45F8C6798a1cE45da1";
+const fwUSDC = '0x3211d27a1A1B8E40C7974F6951935303e6e56DBE'
 const USD0Token = ADDRESSES.ethereum.USD0;
-const UZRLendingMarket = "0xa428723eE8ffD87088C36121d72100B43F11fb6A"; // UZR Lending Market (MetaMorpho vault)
-const UZRMarketId = "0xa597b5a36f6cc0ede718ba58b2e23f5c747da810bf8e299022d88123ab03340e";
+const UZRLendingMarket = "0x46531ea0E7cec64b14181d45F8C6798a1cE45da1"; // UZR Lending Market (MetaMorpho vault)
+const UZRMarketId = "0x3211d27a1A1B8E40C7974F6951935303e6e56DBE";
 const marketAbi = "function market(bytes32) view returns (uint128 totalSupplyAssets, uint128 totalSupplyShares, uint128 totalBorrowAssets, uint128 totalBorrowShares, uint128 lastUpdate, uint128 fee)";
 
 async function borrowed_v0(api) {
