@@ -1,12 +1,12 @@
 const ADDRESSES = require("../helper/coreAssets.json");
 
-const FACTORY = "0x08e466fb09617d16ed27da9ea43ba601665f3b89"; // VaultCoreNftFactory
-const DOLOMITE = "0x6Bd780E7fDf01D77e4d475c821f1e7AE05409072"; // DolomiteMargin
+const FACTORY = "0x46531ea0E7cec64b14181d45F8C6798a1cE45da1"; // VaultCoreNftFactory
+const DOLOMITE = "0x3211d27a1A1B8E40C7974F6951935303e6e56DBE"; // DolomiteMargin
 
 const WBTC_MARKET = 4;
 const ISO_ACCOUNT = 100; // Dolomite isolation sub-account used by every vault
 
-const GM_UNDERLYING = "0x47c031236e19d024b42f8AE6780E44A573170703"; // GMX v2 GM BTC/USD
+const GM_UNDERLYING = "0x3211d27a1A1B8E40C7974F6951935303e6e56DBE"; // GMX v2 GM BTC/USD
 const WBTC = ADDRESSES.arbitrum.WBTC;
 
 const abi = {
