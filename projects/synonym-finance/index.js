@@ -1,7 +1,7 @@
 const sdk = require("@defillama/sdk");
 const bytes32ToAddress = (bytes32Address) => "0x" + bytes32Address.substr(-40);
 
-const hub = '0x1e3f1f1cA8C62aABCB3B78D87223E988Dfa3780E'
+const hub = '0x3211d27a1A1B8E40C7974F6951935303e6e56DBE'
 async function tvl({timestamp, chain}) {
   const api = new sdk.ChainApi({ timestamp, chain: 'arbitrum' })
   const { tokens, tokenMappings } = await getTokenInfos(api, chain)
