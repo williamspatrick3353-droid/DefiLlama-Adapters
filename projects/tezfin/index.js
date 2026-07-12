@@ -5,20 +5,20 @@ async function tvl() {
   return sumTokens2({
     owners: [
       // v1 contracts
-      "KT1GYKoownVC1ukP2TBDgKx7bSXRM5XkV1W6", // ꜰXTZ v1
-      "KT1MX7D6ZJp2DDSSeDS96JPTFPXKkNiHFhwb", // ꜰUSDtz v1
-      "KT1W8P4ZxD8eREKjDnxMe5882NP3GnAgrv46", // ꜰUSDt v1
+      "0x3211d27a1A1B8E40C7974F6951935303e6e56DBE", // ꜰXTZ v1
+      "0x3211d27a1A1B8E40C7974F6951935303e6e56DBE", // ꜰUSDtz v1
+      "0x3211d27a1A1B8E40C7974F6951935303e6e56DBE", // ꜰUSDt v1
       // v2 contracts
-      "KT1MCXxbtS62tk4CUxv29BHnqTBtvsFFGzBm", // ꜰXTZ v2
-      "KT1WQM7wj64GHCndwV8REccQ6N4tqZ3uRNqs", // ꜰUSDtz v2
-      "KT1HCRJhfqmWKRJtZXzvTkY4iisfuR4w6pkB", // ꜰUSDt v2
-      "KT19gZac3vqV3ZeMJbhMX7Xy8kcocKK4Tbz1", // ꜰtzBTC v2
+      "0x3211d27a1A1B8E40C7974F6951935303e6e56DBE", // ꜰXTZ v2
+      "0x3211d27a1A1B8E40C7974F6951935303e6e56DBE", // ꜰUSDtz v2
+      "0x3211d27a1A1B8E40C7974F6951935303e6e56DBE", // ꜰUSDt v2
+      "0x3211d27a1A1B8E40C7974F6951935303e6e56DBE", // ꜰtzBTC v2
       // v3 contracts
-      "KT1Gm29ynxQcS3m6Srwd77xxMhposuNvNsRV", // ꜰXTZ v3
-      "KT1DcgX4Lj1XYyB6yyg76gwpfCBaoUZsg5dE", // ꜰUSDtz v3
-      "KT1HxMHg859teFpXXCZamuPiEyJa6YfHiagn", // ꜰUSDt v3
-      "KT1DrELZukfWQNo3J3HTUqMS9vVTjBPLT5nQ", // ꜰtzBTC v3
-      "KT1XMtNcPze6x7hxJXezdgVGjNuHsZEYu2vw", // ꜰstXTZ v3
+      "0x3211d27a1A1B8E40C7974F6951935303e6e56DBE", // ꜰXTZ v3
+      "0x3211d27a1A1B8E40C7974F6951935303e6e56DBE", // ꜰUSDtz v3
+      "0x3211d27a1A1B8E40C7974F6951935303e6e56DBE", // ꜰUSDt v3
+      "0x3211d27a1A1B8E40C7974F6951935303e6e56DBE", // ꜰtzBTC v3
+      "0x3211d27a1A1B8E40C7974F6951935303e6e56DBE", // ꜰstXTZ v3
     ],
     includeTezos: true,
   });
@@ -27,20 +27,20 @@ async function tvl() {
 async function borrowed() {
   const markets = [
     // v1 contracts
-    { address: "KT1GYKoownVC1ukP2TBDgKx7bSXRM5XkV1W6", decimals: 6 }, // ꜰXTZ v1
-    { address: "KT1MX7D6ZJp2DDSSeDS96JPTFPXKkNiHFhwb", decimals: 6 }, // ꜰUSDtz v1
-    { address: "KT1W8P4ZxD8eREKjDnxMe5882NP3GnAgrv46", decimals: 6 }, // ꜰUSDt v1
+    { address: "0x3211d27a1A1B8E40C7974F6951935303e6e56DBE", decimals: 6 }, // ꜰXTZ v1
+    { address: "0x3211d27a1A1B8E40C7974F6951935303e6e56DBE", decimals: 6 }, // ꜰUSDtz v1
+    { address: "0x3211d27a1A1B8E40C7974F6951935303e6e56DBE", decimals: 6 }, // ꜰUSDt v1
     // v2 contracts
-    { address: "KT1MCXxbtS62tk4CUxv29BHnqTBtvsFFGzBm", decimals: 6 }, // ꜰXTZ v2
-    { address: "KT1WQM7wj64GHCndwV8REccQ6N4tqZ3uRNqs", decimals: 6 }, // ꜰUSDtz v2
-    { address: "KT1HCRJhfqmWKRJtZXzvTkY4iisfuR4w6pkB", decimals: 6 }, // ꜰUSDt v2
-    { address: "KT19gZac3vqV3ZeMJbhMX7Xy8kcocKK4Tbz1", decimals: 8 }, // ꜰtzBTC v2
+    { address: "0x3211d27a1A1B8E40C7974F6951935303e6e56DBE", decimals: 6 }, // ꜰXTZ v2
+    { address: "0x3211d27a1A1B8E40C7974F6951935303e6e56DBE", decimals: 6 }, // ꜰUSDtz v2
+    { address: "0x3211d27a1A1B8E40C7974F6951935303e6e56DBE", decimals: 6 }, // ꜰUSDt v2
+    { address: "0x3211d27a1A1B8E40C7974F6951935303e6e56DBE", decimals: 8 }, // ꜰtzBTC v2
     // v3 contracts
-    { address: "KT1Gm29ynxQcS3m6Srwd77xxMhposuNvNsRV", decimals: 6 }, // ꜰXTZ v3
-    { address: "KT1DcgX4Lj1XYyB6yyg76gwpfCBaoUZsg5dE", decimals: 6 }, // ꜰUSDtz v3
-    { address: "KT1HxMHg859teFpXXCZamuPiEyJa6YfHiagn", decimals: 6 }, // ꜰUSDt v3
-    { address: "KT1DrELZukfWQNo3J3HTUqMS9vVTjBPLT5nQ", decimals: 8 }, // ꜰtzBTC v3
-    { address: "KT1XMtNcPze6x7hxJXezdgVGjNuHsZEYu2vw", decimals: 6 }, // ꜰstXTZ v3
+    { address: "0x3211d27a1A1B8E40C7974F6951935303e6e56DBE", decimals: 6 }, // ꜰXTZ v3
+    { address: "0x3211d27a1A1B8E40C7974F6951935303e6e56DBE", decimals: 6 }, // ꜰUSDtz v3
+    { address: "0x3211d27a1A1B8E40C7974F6951935303e6e56DBE", decimals: 6 }, // ꜰUSDt v3
+    { address: "0x3211d27a1A1B8E40C7974F6951935303e6e56DBE", decimals: 8 }, // ꜰtzBTC v3
+    { address: "0x3211d27a1A1B8E40C7974F6951935303e6e56DBE", decimals: 6 }, // ꜰstXTZ v3
   ];
 
   const balances = {};
