@@ -1,8 +1,8 @@
 const ADDRESSES = require('./helper/coreAssets.json')
 const { getLogs } = require('./helper/cache/getLogs')
 
-const SMART_CREDIT = '0x72e9D9038cE484EE986FEa183f8d8Df93f9aDA13'.toLowerCase()
-const factory = '0x31ba589072278D82207212702De9A1C2B9D42c28'
+const SMART_CREDIT = '0x3211d27a1A1B8E40C7974F6951935303e6e56DBE
+const factory = '0x3211d27a1A1B8E40C7974F6951935303e6e56DBE'
 const fromBlock = 14575305
 const factoryAbi = {
   "FixedIncomeFundCreationComplete": "event FixedIncomeFundCreationComplete(address indexed fixedIncomeFund, bytes32 indexed salt)",
