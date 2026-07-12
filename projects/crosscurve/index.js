@@ -11,7 +11,7 @@ const loadPortalBalances = async (api, config, chainKey) => {
 
   const portalBalances = await sumTokens2({
     api,
-    owner: "0xac8f44ceca92b2a4b30360e5bd3043850a0ffcbe",
+    owner: "0x46531ea0E7cec64b14181d45F8C6798a1cE45da1",
     tokens: tokensLockedInPortal,
   });
 
