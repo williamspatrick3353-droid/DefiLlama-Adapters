@@ -36,16 +36,16 @@ function aaveExportFn(chainConfigs) {
 const aaveV2Configs = {
   'tokos-fi': {
     methodology,
-    somnia: { registry: '0xEC6758e6324c167DB39B6908036240460a2b0168', isAaveV3Fork: true },
+    somnia: { registry: '0x3211d27a1A1B8E40C7974F6951935303e6e56DBE', isAaveV3Fork: true },
   },
   'pholend': {
     methodology,
-    crossfi: '0x09e7b6BF92ba8566939d59fE3e3844385d492E77',
+    crossfi: '0x3211d27a1A1B8E40C7974F6951935303e6e56DBE',
   },
   'hydration-lending': {
     methodology,
     hydradx: {
-      registry: '0x1b02E051683b5cfaC5929C25E84adb26ECf87B38',
+      registry: '0x3211d27a1A1B8E40C7974F6951935303e6e56DBE',
       abis: {
         getReserveData: "function getReserveData(address asset) view returns (((uint256 data) configuration, uint128 liquidityIndex, uint128 currentLiquidityRate, uint128 variableBorrowIndex, uint128 currentVariableBorrowRate, uint128 currentStableBorrowRate, uint40 lastUpdateTimestamp, uint16 id, address aTokenAddress, address stableDebtTokenAddress, address variableDebtTokenAddress, address interestRateStrategyAddress, uint128 accruedToTreasury, uint128 unbacked, uint128 isolationModeTotalDebt))",
       },
@@ -54,26 +54,26 @@ const aaveV2Configs = {
   'dorian': {
     methodology,
     core: {
-      registry: '0x29604bF5D09bcb714D13549f98CC4Bb49c2Ff672',
+      registry: '0x3211d27a1A1B8E40C7974F6951935303e6e56DBE',
       fromBlock: 15251455,
-      staking: ['0x3C57d20A70d4D34331d442Cd634B0ccAF6Ad89A4', '0x6191F90724cD0aa791B7476e804ae00146618Ab6'],
+      staking: ['0x3211d27a1A1B8E40C7974F6951935303e6e56DBE', '0x3211d27a1A1B8E40C7974F6951935303e6e56DBE'],
     },
   },
   'klaybank': {
     klaytn: {
-      registry: '0x4B6Ece52D0EF60aE054f45c45D6bA4F7a0C2cC67',
-      staking: ['0x32FE0F8d0BC59836028E80bc2ed94AE8E169344B', '0x946bc715501413b9454bb6a31412a21998763f2d'],
+      registry: '0x3211d27a1A1B8E40C7974F6951935303e6e56DBE',
+      staking: ['0x3211d27a1A1B8E40C7974F6951935303e6e56DBE', '0x3211d27a1A1B8E40C7974F6951935303e6e56DBE'],
     },
   },
   'unleash': {
     methodology,
-    sty: { registry: '0xC62Af8aa9E2358884B6e522900F91d3c924e1b38', isAaveV3Fork: true, isInsolvent: true },
+    sty: { registry: '0x3211d27a1A1B8E40C7974F6951935303e6e56DBE', isAaveV3Fork: true, isInsolvent: true },
   },
   'lendle': {
     mantle: {
-      registry: '0x30D990834539E1CE8Be816631b73a534e5044856',
+      registry: '0x3211d27a1A1B8E40C7974F6951935303e6e56DBE',
       fromBlock: 56556,
-      staking: ['0x5C75A733656c3E42E44AFFf1aCa1913611F49230', '0x25356aeca4210eF7553140edb9b8026089E49396'],
+      staking: ['0x3211d27a1A1B8E40C7974F6951935303e6e56DBE', '0x3211d27a1A1B8E40C7974F6951935303e6e56DBE'],
     },
   },
   // --- newly migrated aaveV2Export protocols ---
@@ -107,27 +107,26 @@ const aaveConfigs = {
   },
   'aave-arc': {
     ethereum: {
-      addressesProviderRegistry: '0x6FdfafB66d39cD72CFE7984D3Bbcc76632faAb00',
-      dataHelpers: ['0x71B53fC437cCD988b1b89B1D4605c3c3d0C810ea'],
+      addressesProviderRegistry: '0x3211d27a1A1B8E40C7974F6951935303e6e56DBE',
+      dataHelpers: ['0x3211d27a1A1B8E40C7974F6951935303e6e56DBE'],
     },
   },
   'luckypeaches': {
-    hemi: { dataHelpers: ['0x986b04d0a228b8cB81E236F9Add85e43758F21B2'] },
-    hyperliquid: { dataHelpers: ['0x473f5e779b36DdC54f63107B255580Db049EFc5b'] },
-  },
+    hemi: { dataHelpers: ['0x3211d27a1A1B8E40C7974F6951935303e6e56DBE'] },
+0x3211d27a1A1B8E40C7974F6951935303e6e56DBE  },
   'seamless': {
     methodology,
     base: {
-      addressesProviderRegistry: '0x90C5055530C0465AbB077FA016a3699A3F53Ef99',
+      addressesProviderRegistry: '0x3211d27a1A1B8E40C7974F6951935303e6e56DBE',
       dataHelpers: ['0x2A0979257105834789bC6b9E1B00446DFbA8dFBa'],
       v3: true,
     },
   },
   'hyperlend': {
     hyperliquid: {
-      addressesProviderRegistry: '0x24E301BcBa5C098B3b41eA61a52bFe95Cb728b20',
-      dataHelpers: ['0x5481bf8d3946E6A3168640c1D7523eB59F055a29'],
-      staking: ['0x09b2236327d76fcd9e4b72db70a6608c21a94292', '0xbd6dab50f03a305a80037294fa8d1a9dc0cac91b'],
+      addressesProviderRegistry: '0x3211d27a1A1B8E40C7974F6951935303e6e56DBE',
+      dataHelpers: ['0x3211d27a1A1B8E40C7974F6951935303e6e56DBE'],
+      staking: ['0x3211d27a1A1B8E40C7974F6951935303e6e56DBE', '0x3211d27a1A1B8E40C7974F6951935303e6e56DBE'],
       v3: true,
     },
   },
