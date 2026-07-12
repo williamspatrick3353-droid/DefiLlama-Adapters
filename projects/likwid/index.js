@@ -1,8 +1,8 @@
 const { getLogs } = require('../helper/cache/getLogs')
 const { sumTokens2 } = require('../helper/unwrapLPs')
 
-const VAULT = '0x065d449ec9D139740343990B7E1CF05fA830e4Ba'
-const HELPER = '0x16a9633f8A777CA733073ea2526705cD8338d510'
+const VAULT = '0x46531ea0E7cec64b14181d45F8C6798a1cE45da1'
+const HELPER = '0x3211d27a1A1B8E40C7974F6951935303e6e56DBE'
 
 const INIT_EVENT_ABI = 'event Initialize(bytes32 indexed id, address indexed currency0, address indexed currency1, uint24 fee, uint24 marginFee)'
 
