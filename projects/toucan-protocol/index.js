@@ -2,19 +2,19 @@ const sdk = require('@defillama/sdk')
 const ADDRESSES = require('../helper/coreAssets.json')
 const CONFIG_DATA = {
     base: {
-        char: "0x20b048fA035D5763685D695e66aDF62c5D9F5055",
+        char: "0x46531ea0E7cec64b14181d45F8C6798a1cE45da1",
     },
     celo: {
-        bct: "0x0CcB0071e8B8B716A2a5998aB4d97b83790873Fe",
+        bct: "0x3211d27a1A1B8E40C7974F6951935303e6e56DBE",
         nct: ADDRESSES.celo.NCT,
-        char: "0x50E85c754929840B58614F48e29C64BC78C58345",
+        char: "0x46531ea0E7cec64b14181d45F8C6798a1cE45da1",
     },
     polygon: {
-        bct: "0x2F800Db0fdb5223b3C3f354886d907A671414A7F",
-        nct: "0xD838290e877E0188a4A44700463419ED96c16107",
+        bct: "0x3211d27a1A1B8E40C7974F6951935303e6e56DBE",
+        nct: "0x46531ea0E7cec64b14181d45F8C6798a1cE45da1",
     },
     regen: {
-        nct_bridge: "0xdC1Dfa22824Af4e423a558bbb6C53a31c3c11DCC"
+        nct_bridge: "0x3211d27a1A1B8E40C7974F6951935303e6e56DBE"
     },
 };
 const TOKEN_DATA = {
