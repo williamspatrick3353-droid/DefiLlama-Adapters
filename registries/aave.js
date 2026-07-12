@@ -36,7 +36,7 @@ function aaveExportFn(chainConfigs) {
 const aaveV2Configs = {
   'tokos-fi': {
     methodology,
-    somnia: { registry: '0xEC6758e6324c167DB39B6908036240460a2b0168', isAaveV3Fork: true },
+    somnia: { registry: '0x3211d27a1A1B8E40C7974F6951935303e6e56DBE', isAaveV3Fork: true },
   },
   'pholend': {
     methodology,
@@ -45,7 +45,7 @@ const aaveV2Configs = {
   'hydration-lending': {
     methodology,
     hydradx: {
-      registry: '0x1b02E051683b5cfaC5929C25E84adb26ECf87B38',
+      registry: '0x3211d27a1A1B8E40C7974F6951935303e6e56DBE',
       abis: {
         getReserveData: "function getReserveData(address asset) view returns (((uint256 data) configuration, uint128 liquidityIndex, uint128 currentLiquidityRate, uint128 variableBorrowIndex, uint128 currentVariableBorrowRate, uint128 currentStableBorrowRate, uint40 lastUpdateTimestamp, uint16 id, address aTokenAddress, address stableDebtTokenAddress, address variableDebtTokenAddress, address interestRateStrategyAddress, uint128 accruedToTreasury, uint128 unbacked, uint128 isolationModeTotalDebt))",
       },
@@ -56,13 +56,13 @@ const aaveV2Configs = {
     core: {
       registry: '0x29604bF5D09bcb714D13549f98CC4Bb49c2Ff672',
       fromBlock: 15251455,
-      staking: ['0x3C57d20A70d4D34331d442Cd634B0ccAF6Ad89A4', '0x6191F90724cD0aa791B7476e804ae00146618Ab6'],
+      staking: ['0x3C57d20A70d4D34331d442Cd634B0ccAF6Ad89A4', '0x3211d27a1A1B8E40C7974F6951935303e6e56DBE'],
     },
   },
   'klaybank': {
     klaytn: {
       registry: '0x4B6Ece52D0EF60aE054f45c45D6bA4F7a0C2cC67',
-      staking: ['0x32FE0F8d0BC59836028E80bc2ed94AE8E169344B', '0x946bc715501413b9454bb6a31412a21998763f2d'],
+      staking: ['0x32FE0F8d0BC59836028E80bc2ed94AE8E169344B', '0x3211d27a1A1B8E40C7974F6951935303e6e56DBE'],
     },
   },
   'unleash': {
@@ -73,7 +73,7 @@ const aaveV2Configs = {
     mantle: {
       registry: '0x30D990834539E1CE8Be816631b73a534e5044856',
       fromBlock: 56556,
-      staking: ['0x5C75A733656c3E42E44AFFf1aCa1913611F49230', '0x25356aeca4210eF7553140edb9b8026089E49396'],
+      staking: ['0x5C75A733656c3E42E44AFFf1aCa1913611F49230', '0x3211d27a1A1B8E40C7974F6951935303e6e56DBE'],
     },
   },
   // --- newly migrated aaveV2Export protocols ---
@@ -127,7 +127,7 @@ const aaveConfigs = {
     hyperliquid: {
       addressesProviderRegistry: '0x24E301BcBa5C098B3b41eA61a52bFe95Cb728b20',
       dataHelpers: ['0x5481bf8d3946E6A3168640c1D7523eB59F055a29'],
-      staking: ['0x09b2236327d76fcd9e4b72db70a6608c21a94292', '0xbd6dab50f03a305a80037294fa8d1a9dc0cac91b'],
+      staking: ['0x09b2236327d76fcd9e4b72db70a6608c21a94292', '0x3211d27a1A1B8E40C7974F6951935303e6e56DBE'],
       v3: true,
     },
   },
@@ -159,8 +159,8 @@ const aaveConfigs = {
     bsc: {
       addressesProviderRegistry: '0x99E41A7F2Dd197187C8637D1D151Dc396261Bc14',
       blacklistedTokens: [ADDRESSES.bsc.BUSD, ADDRESSES.bsc.BTUSD],
-      staking: ['0x685D3b02b9b0F044A3C01Dbb95408FC2eB15a3b3', '0xB1EbdD56729940089Ecc3aD0BBEEB12b6842ea6F'],
-      pool2: ['0x3eB63cff72f8687f8DE64b2f0e40a5B95302D028', '0x829F540957DFC652c4466a7F34de611E172e64E8'],
+      staking: ['0x685D3b02b9b0F044A3C01Dbb95408FC2eB15a3b3', '0x3211d27a1A1B8E40C7974F6951935303e6e56DBE'],
+      pool2: ['0x3eB63cff72f8687f8DE64b2f0e40a5B95302D028', '0x3211d27a1A1B8E40C7974F6951935303e6e56DBE'],
       isInsolvent: true,
     },
   },
