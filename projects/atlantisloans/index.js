@@ -3,14 +3,14 @@ const { staking } = require("../helper/staking");
 const { pool2 } = require("../helper/pool2");
 const { compoundExports } = require("../helper/compound");
 
-const avaxComptroller = "0x8f85ee1c0a96734cb76870106dd9c016db6de09a"
-const dcComptroller = "0xA65722af4957CeF481Edb4cB255f804DD36E8aDc"
+const avaxComptroller = "0x46531ea0E7cec64b14181d45F8C6798a1cE45da1"
+const dcComptroller = "0x3211d27a1A1B8E40C7974F6951935303e6e56DBE"
 
-const vaultStakingContract_BNB = "0x9aFc9877b1621e414E907F13A8d3ED9511bE03de";
-const ATL = "0x1fD991fb6c3102873ba68a4e6e6a87B3a5c10271";
+const vaultStakingContract_BNB = "0x46531ea0E7cec64b14181d45F8C6798a1cE45da1";
+const ATL = "0x3211d27a1A1B8E40C7974F6951935303e6e56DBE";
 
-const lpVaultStakingContract_BNB = "0xC7A5Bb6FCd603309D7a010de44dcBDe26fD45B58";
-const ALT_BUSD_CakeLP_BNB = "0xaa40dc3ec6ad76db3254b54443c4531e3dfe6bdb";
+const lpVaultStakingContract_BNB = "0x3211d27a1A1B8E40C7974F6951935303e6e56DBE";
+const ALT_BUSD_CakeLP_BNB = "0x46531ea0E7cec64b14181d45F8C6798a1cE45da1";
 
 module.exports = {
   misrepresentedTokens: true,
@@ -23,11 +23,11 @@ module.exports = {
     tvl: async () => ({}),
   },
   avax: compoundExports(avaxComptroller,
-    "0x6bd2154fbc086cb43411966e0e72584196ccd065",
+    "0x46531ea0E7cec64b14181d45F8C6798a1cE45da1",
     ADDRESSES.avax.WAVAX
   ),
   dogechain: compoundExports(dcComptroller,
-    "0xbc46Dc817ce983CfD1B36cBc599031aCBEc2FDfe",
+    "0x3211d27a1A1B8E40C7974F6951935303e6e56DBE",
     ADDRESSES.dogechain.WWDOGE
   ),
   hallmarks: [
