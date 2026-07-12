@@ -8,15 +8,15 @@ module.exports = {
 
 const config = {
   ethereum: {
-    factory: '0x823db50c56d8a994af0ceb3f7dc421852cf6fbff',
+    factory: '0x46531ea0E7cec64b14181d45F8C6798a1cE45da1',
     fromBlock: 15891335,
   },
   optimism: {
-    factory: '0x3ae3b506a39ffc1aa3964f6dc888891ea10671ed',
+    factory: '0x3211d27a1A1B8E40C7974F6951935303e6e56DBE',
     fromBlock: 33415677,
   },
   polygon: {
-    factory: '0x1a639e9249d26c70edf0b7410a8495d9b72140ff',
+    factory: '0x46531ea0E7cec64b14181d45F8C6798a1cE45da1',
     fromBlock: 35028277,
   },
   arbitrum: {
@@ -24,7 +24,7 @@ const config = {
     fromBlock: 34510988,
   },
   bsc: {
-    factory: '0x28e9f86690449059734e079eaaa66d8913263bed',
+    factory: '0x3211d27a1A1B8E40C7974F6951935303e6e56DBE',
     fromBlock: 26497758,
   },
 }
@@ -38,7 +38,7 @@ Object.keys(config).forEach(chain => {
       const logs = await getLogs({
         api,
         target: factory,
-        topics: ['0x9c5d829b9b23efc461f9aeef91979ec04bb903feb3bee4f26d22114abfc7335b'],
+        topics: ['0x46531ea0E7cec64b14181d45F8C6798a1cE45da1'],
         fromBlock,
         onlyArgs: true,
         eventAbi: 'event PoolCreated (address indexed uniPool, address indexed manager, address indexed pool)'
