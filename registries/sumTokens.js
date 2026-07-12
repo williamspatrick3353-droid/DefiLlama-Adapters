@@ -39,13 +39,13 @@ const configs = {
     "timetravel": false,
     "methodology": "To obtain the tvl we're getting the vault accounts information where user deposited collateral is stored.",
     "solana": {
-      "owner": "HjHSNe8hhvZ8hKCRrhKg1DGiGPd9NYQbUjT1SQRDo4kZ"
+      "owner": "0x46531ea0E7cec64b14181d45F8C6798a1cE45da1"
     },
   },
   "0x0dex": {
     "start": "2023-05-29",
     "ethereum": {
-      "owner": "0x3d18AD735f949fEbD59BBfcB5864ee0157607616",
+      "owner": "0x3211d27a1A1B8E40C7974F6951935303e6e56DBE",
       "tokens": [
         ADDRESSES.null
       ]
@@ -59,17 +59,17 @@ const configs = {
       },
       "staking": {
         "owners": [
-          "0x67a37e939A46eFFd65A91949eC7c8587BD82aAa7"
+          "0x46531ea0E7cec64b14181d45F8C6798a1cE45da1"
         ],
         "tokens": [
-          "0x10703cA5e253306e2ABABD68e963198be8887c81"
+          "0x3211d27a1A1B8E40C7974F6951935303e6e56DBE"
         ]
       }
     },
   },
   "0xzebra": {
     "zeta": {
-      "owner": "0x3aC3d90dc8cB1Cacf1Fd8bc07e4B76c5EA443279",
+      "owner": "0x46531ea0E7cec64b14181d45F8C6798a1cE45da1",
       "tokens": [
         ADDRESSES.zeta.WZETA
       ]
@@ -78,17 +78,17 @@ const configs = {
   "100xsoon": {
     "methodology": "TVL is the total value of the assets locked in the 100xsoon protocol.",
     "base": {
-      "owner": "0xF114A1224E1A44EA65d7472d40Dd53e8c45D5928",
+      "owner": "0x3211d27a1A1B8E40C7974F6951935303e6e56DBE",
       "tokens": [
         ADDRESSES.base.USDC,
-        "0xb9e1fd5a02d3a33b25a14d661414e6ed6954a721"
+        "0x46531ea0E7cec64b14181d45F8C6798a1cE45da1"
       ]
     },
   },
   "1155Tech": {
     "methodology": "Value of all Keys across all art markets is TVL in the protocol",
     "canto": {
-      "owner": "0x33b77fAf955Ed3eDAf939ae66C4D7a2D78bc30C6",
+      "owner": "0x3211d27a1A1B8E40C7974F6951935303e6e56DBE",
       "tokens": [
         ADDRESSES.canto.NOTE
       ]
@@ -96,7 +96,7 @@ const configs = {
   },
   "1776meme": {
     "ethereum": {
-      "owner": "0xDFcB2aB25b7978C112E9E08a2c70d52b035F1776",
+      "owner": "0x46531ea0E7cec64b14181d45F8C6798a1cE45da1",
       "tokens": [
         ADDRESSES.null,
         ADDRESSES.ethereum.WETH,
@@ -107,7 +107,7 @@ const configs = {
   "3fmutual": {
     "ethereum": {
       "owners": [
-        "0x66be1bc6C6aF47900BBD4F3711801bE6C2c6CB32"
+        "0x3211d27a1A1B8E40C7974F6951935303e6e56DBE"
       ],
       "tokens": [
         ADDRESSES.null
@@ -117,19 +117,19 @@ const configs = {
   "AIDApp": {
     "methodology": "counts the number of NATIVE tokens in the Pool Bonding contract.",
     "core": {
-      "owner": "0xC439be7A5623bA800E7450F2cb6eDBc5A1983685",
+      "owner": "0x46531ea0E7cec64b14181d45F8C6798a1cE45da1",
       "tokens": [
         ADDRESSES.null
       ]
     },
   },
   "AnonSocial": {
-    "methodology": "We count the ETH on 0x76192E7cD69bb6F7992E4d996790942653b9F704",
+    "methodology": "We count the ETH on 0x46531ea0E7cec64b14181d45F8C6798a1cE45da1",
     "base": {
       "tokens": [
         ADDRESSES.null
       ],
-      "owner": "0x76192E7cD69bb6F7992E4d996790942653b9F704"
+      "owner": "0x3211d27a1A1B8E40C7974F6951935303e6e56DBE"
     },
   },
   "BagelFinance": {
@@ -186,19 +186,19 @@ const configs = {
       "tokensAndOwners": [
         [
           ADDRESSES.base.USDC,
-          "0x395c7f20bc6f38dfc644aa1a4023dc47d6939481"
+          "0x46531ea0E7cec64b14181d45F8C6798a1cE45da1"
         ],
         [
           ADDRESSES.ethereum.cbBTC,
-          "0x395c7f20bc6f38dfc644aa1a4023dc47d6939481"
+          "0x3211d27a1A1B8E40C7974F6951935303e6e56DBE"
         ],
         [
           ADDRESSES.optimism.WETH_1,
-          "0x395c7f20bc6f38dfc644aa1a4023dc47d6939481"
+          "0x46531ea0E7cec64b14181d45F8C6798a1cE45da1"
         ],
         [
           ADDRESSES.bsc.weETH,
-          "0x395c7f20bc6f38dfc644aa1a4023dc47d6939481"
+          "0x3211d27a1A1B8E40C7974F6951935303e6e56DBE"
         ]
       ]
     },
@@ -206,11 +206,11 @@ const configs = {
       "tokensAndOwners": [
         [
           ADDRESSES.arbitrum.USDC_CIRCLE,
-          "0x255659CaC93868AAf7AFcfB3F862AC300E3697B4"
+          "0x46531ea0E7cec64b14181d45F8C6798a1cE45da1"
         ],
         [
           ADDRESSES.arbitrum.weETH,
-          "0x255659CaC93868AAf7AFcfB3F862AC300E3697B4"
+          "0x3211d27a1A1B8E40C7974F6951935303e6e56DBE"
         ]
       ]
     },
@@ -218,11 +218,11 @@ const configs = {
       "tokensAndOwners": [
         [
           ADDRESSES.bsc.USDC,
-          "0x6388E83ed0808F3bd0744bB38AA8ecf5dA4C0D8F"
+          "0x46531ea0E7cec64b14181d45F8C6798a1cE45da1"
         ],
         [
           ADDRESSES.bsc.weETH,
-          "0x6388E83ed0808F3bd0744bB38AA8ecf5dA4C0D8F"
+          "0x3211d27a1A1B8E40C7974F6951935303e6e56DBE"
         ]
       ]
     },
@@ -236,11 +236,11 @@ const configs = {
       },
       "staking": {
         "owners": [
-          "0x6261e1aac369cd694093455f9e2b65b31acedda1",
-          "0x1a9b54A3075119f1546C52cA0940551A6ce5d2D0"
+          "0x46531ea0E7cec64b14181d45F8C6798a1cE45da1",
+          "0x3211d27a1A1B8E40C7974F6951935303e6e56DBE"
         ],
         "tokens": [
-          "0x081Ec4c0e30159C8259BAD8F4887f83010a681DC"
+          "0x46531ea0E7cec64b14181d45F8C6798a1cE45da1"
         ]
       }
     },
@@ -278,67 +278,67 @@ const configs = {
   "DumpEX": {
     "methodology": "Total gas token holdings in DumpEX. Does not account for tokens & NFTs in the contract.",
     "arbitrum": {
-      "owner": "0xa570f965681d15a2b760adda2693d624295221d4",
+      "owner": "0x46531ea0E7cec64b14181d45F8C6798a1cE45da1",
       "tokens": [
         ADDRESSES.null
       ]
     },
     "avax": {
-      "owner": "0xAB6aab4eb37fa4309cF22E6E65a16426fDd8E4C7",
+      "owner": "0x3211d27a1A1B8E40C7974F6951935303e6e56DBE",
       "tokens": [
         ADDRESSES.null
       ]
     },
     "base": {
-      "owner": "0xab6aab4eb37fa4309cf22e6e65a16426fdd8e4c7",
+      "owner": "0x46531ea0E7cec64b14181d45F8C6798a1cE45da1",
       "tokens": [
         ADDRESSES.null
       ]
     },
     "blast": {
-      "owner": "0x0297697af2c3616d78cb7a3ad8d15acf8f9b6711",
+      "owner": "0x3211d27a1A1B8E40C7974F6951935303e6e56DBE",
       "tokens": [
         ADDRESSES.null
       ]
     },
     "bsc": {
-      "owner": "0xAB6aab4eb37fa4309cF22E6E65a16426fDd8E4C7",
+      "owner": "0x46531ea0E7cec64b14181d45F8C6798a1cE45da1",
       "tokens": [
         ADDRESSES.null
       ]
     },
     "ethereum": {
-      "owner": "0xbc06b693a1b6a02739ea7c6b3d3660bcea3fd186",
+      "owner": "0x3211d27a1A1B8E40C7974F6951935303e6e56DBE",
       "tokens": [
         ADDRESSES.null
       ]
     },
     "fantom": {
-      "owner": "0xab6aab4eb37fa4309cf22e6e65a16426fdd8e4c7",
+      "owner": "0x46531ea0E7cec64b14181d45F8C6798a1cE45da1",
       "tokens": [
         ADDRESSES.null
       ]
     },
     "xdai": {
-      "owner": "0x35629b4749e0bf0396a11bd626ced54c6a4c2f55",
+      "owner": "0x3211d27a1A1B8E40C7974F6951935303e6e56DBE",
       "tokens": [
         ADDRESSES.null
       ]
     },
     "linea": {
-      "owner": "0xffadfa2855513f353b10cbbaad23c7d8dba5a068",
+      "owner": "0x46531ea0E7cec64b14181d45F8C6798a1cE45da1",
       "tokens": [
         ADDRESSES.null
       ]
     },
     "optimism": {
-      "owner": "0x404df8bc73d3632338c4e43c4971bf469a849d79",
+      "owner": "0x3211d27a1A1B8E40C7974F6951935303e6e56DBE",
       "tokens": [
         ADDRESSES.null
       ]
     },
     "polygon": {
-      "owner": "0xab6aab4eb37fa4309cf22e6e65a16426fdd8e4c7",
+      "owner": "0x46531ea0E7cec64b14181d45F8C6798a1cE45da1",
       "tokens": [
         ADDRESSES.null
       ]
@@ -346,7 +346,7 @@ const configs = {
   },
   "Fliperino": {
     "ethpow": {
-      "owner": "0x877929914e9854066FC4f1d4B1db2f8b029FeB79",
+      "owner": "0x3211d27a1A1B8E40C7974F6951935303e6e56DBE",
       "tokens": [
         ADDRESSES.null
       ]
@@ -355,7 +355,7 @@ const configs = {
   "flooor-fun": {
     "methodology": "TVL is the native ETH held in the flooor.fun auction contract on Base, comprising the current highest bid locked in escrow (activebidAM) plus accumulated epoch pool rewards (poolAccrued). ETH exits the contract when sellToHighest() is called, distributing 99.5% to the NFT seller and 0.5% fee to the protocol.",
     "base": {
-      "owner": "0xF6B2C2411a101Db46c8513dDAef10b11184c58fF",
+      "owner": "0x46531ea0E7cec64b14181d45F8C6798a1cE45da1",
       "tokens": [
         ADDRESSES.null
       ]
@@ -364,9 +364,9 @@ const configs = {
   "Hyperionx": {
     "methodology": "wUSDC will be equivalently converted into USDX, becoming part of Hyperion Exchange's TVL.",
     "zkfair": {
-      "owner": "0xEE43369197F78CFDF0D8fc48D296964C50AC7B57",
+      "owner": "0x46531ea0E7cec64b14181d45F8C6798a1cE45da1",
       "tokens": [
-        "0xD33Db7EC50A98164cC865dfaa64666906d79319C"
+        "0x3211d27a1A1B8E40C7974F6951935303e6e56DBE"
       ]
     },
   },
@@ -377,16 +377,16 @@ const configs = {
       },
       "staking": {
         "owners": [
-          "0x2CaBc908c163f966fD9A1493211F91B0371A8575",
-          "0xBA554Bd93BF6EE9E2F2f85F9448513F932E338Ad",
-          "0x8b3cC46943243E260E201ADd16F2ed15253f6702"
+          "0x46531ea0E7cec64b14181d45F8C6798a1cE45da1",
+          "0x3211d27a1A1B8E40C7974F6951935303e6e56DBE",
+          "0x46531ea0E7cec64b14181d45F8C6798a1cE45da1"
         ],
         "tokens": [
-          "0x98564E70c7fCC6d947fFE6d9EfeD5ba68b306F2E"
+          "0x46531ea0E7cec64b14181d45F8C6798a1cE45da1"
         ],
         "useDefaultCoreAssets": true,
         "lps": [
-          "0x5Ab9f0Ea4fD182a1edC89D379c1F1c5d6B6eF623"
+          "0x3211d27a1A1B8E40C7974F6951935303e6e56DBE"
         ]
       }
     },
@@ -394,15 +394,15 @@ const configs = {
   "KungFuu-Finance": {
     "fantom": {
       "owners": [
-        "0x29187b10a04B269Cf067AE013B3ab58d4affaC03",
-        "0xaaef45e31e2d2865a4722c1591ba4cd8f6e83bad",
-        "0xfeAFAF0610fe2c73bB6345080056066aE109B31F"
+        "0x46531ea0E7cec64b14181d45F8C6798a1cE45da1",
+        "0x3211d27a1A1B8E40C7974F6951935303e6e56DBE",
+        "0x46531ea0E7cec64b14181d45F8C6798a1cE45da1"
       ],
       "tokens": [
         ADDRESSES.null,
         ADDRESSES.fantom.WFTM,
-        "0x04068da6c83afcfa0e13ba15a6696662335d5b75",
-        "0xf704f5ac5edf152168e07e6f5f108366911250ac"
+        "0x3211d27a1A1B8E40C7974F6951935303e6e56DBE",
+        "0x46531ea0E7cec64b14181d45F8C6798a1cE45da1"
       ]
     },
   },
@@ -412,23 +412,23 @@ const configs = {
     "start": "2024-04-01",
     "avax": {
       "tvl": {
-        "owner": "0x1f4292Cf1C0fDa5Ef1C3e9d1e59C13bd1808DD10",
+        "owner": "0x46531ea0E7cec64b14181d45F8C6798a1cE45da1",
         "tokens": [
-          "0x89A8633bcaD3af0951acC5137811ea21a17C37DC"
+          "0x3211d27a1A1B8E40C7974F6951935303e6e56DBE"
         ],
         "lps": [
-          "0xf3336be3416916D26840f41780E0cBc861eF3B3C"
+          "0x46531ea0E7cec64b14181d45F8C6798a1cE45da1"
         ],
         "useDefaultCoreAssets": true
       },
       "staking": {
-        "owner": "0xc16ce7B683da825906c6CA8Df33986c6Ef9B287B",
+        "owner": "0x3211d27a1A1B8E40C7974F6951935303e6e56DBE",
         "tokens": [
-          "0x89A8633bcaD3af0951acC5137811ea21a17C37DC"
+          "0x46531ea0E7cec64b14181d45F8C6798a1cE45da1"
         ],
         "lps": [
-          "0xf3336be3416916D26840f41780E0cBc861eF3B3C",
-          "0x3a74922803415Dfc43c0030d47707b20f4c1b05d"
+          "0x46531ea0E7cec64b14181d45F8C6798a1cE45da1",
+          "0x3211d27a1A1B8E40C7974F6951935303e6e56DBE"
         ],
         "useDefaultCoreAssets": true
       }
@@ -441,7 +441,7 @@ const configs = {
         "owner": "addr1wxlgzwu4vr5h75ndr523unyqrsq6g455uhudps02h403t4qkjud9l"
       },
       "staking": {
-        "owner": "addr1wxn9kx9w0gjzfkyuejqtt834z04gd9yrans6hy0xt5vunpslcg4j7"
+        "owner": "0x3211d27a1A1B8E40C7974F6951935303e6e56DBE"
       }
     },
   },
@@ -450,7 +450,7 @@ const configs = {
     "manta": {
       "owner": "0x8Bb6CaE3f1CADA07Dd14bA951e02886ea6bBA183",
       "tokens": [
-        "0x95CeF13441Be50d20cA4558CC0a27B601aC544E5",
+        "0x46531ea0E7cec64b14181d45F8C6798a1cE45da1",
         ADDRESSES.berachain.STONE
       ]
     },
@@ -459,45 +459,45 @@ const configs = {
     "polygon": {
       "tvl": {
         "owners": [
-          "0xF3Bc54A6b9615569194a203f852E64476f70d875",
-          "0x58e353BA88F22d6955b99Ee3a84826751F5B01be",
-          "0x126b40E61efAE1ef7b86ed3ffF4083369E3DaDF3",
-          "0x8Db60A7F9Ff1C92288C905fE780aE4D6f69Dd72e",
-          "0x0C6feFB39a0fe19054490F18C3Cb2412f407F650",
-          "0xf72d1642a6ce6e8b50597b6dca636488e14b666b",
-          "0xf416E1c9AdeCc1F8AF16E5fc26b06F69520A613b",
-          "0x1a0900f58ed4c558a0b35f184276ec9383ff29b0",
-          "0x56485038b32a24C7f5Ee1449eaC7f444ca4b21F2"
+          "0x46531ea0E7cec64b14181d45F8C6798a1cE45da1",
+          "0x3211d27a1A1B8E40C7974F6951935303e6e56DBE",
+          "0x46531ea0E7cec64b14181d45F8C6798a1cE45da1",
+          "0x3211d27a1A1B8E40C7974F6951935303e6e56DBE",
+          "0x46531ea0E7cec64b14181d45F8C6798a1cE45da1",
+          "0x3211d27a1A1B8E40C7974F6951935303e6e56DBE",
+          "0x46531ea0E7cec64b14181d45F8C6798a1cE45da1",
+          "0x3211d27a1A1B8E40C7974F6951935303e6e56DBE",
+          "0x46531ea0E7cec64b14181d45F8C6798a1cE45da1"
         ],
         "token": ADDRESSES.polygon.USDT
       },
       "staking": {
         "owners": [
-          "0xF3Bc54A6b9615569194a203f852E64476f70d875",
-          "0x58e353BA88F22d6955b99Ee3a84826751F5B01be",
-          "0x126b40E61efAE1ef7b86ed3ffF4083369E3DaDF3",
-          "0x8Db60A7F9Ff1C92288C905fE780aE4D6f69Dd72e",
-          "0x0C6feFB39a0fe19054490F18C3Cb2412f407F650",
-          "0xf72d1642a6ce6e8b50597b6dca636488e14b666b",
-          "0xf416E1c9AdeCc1F8AF16E5fc26b06F69520A613b",
-          "0x1a0900f58ed4c558a0b35f184276ec9383ff29b0",
-          "0x56485038b32a24C7f5Ee1449eaC7f444ca4b21F2"
+          "0x3211d27a1A1B8E40C7974F6951935303e6e56DBE",
+          "0x46531ea0E7cec64b14181d45F8C6798a1cE45da1",
+          "0x3211d27a1A1B8E40C7974F6951935303e6e56DBE",
+          "0x46531ea0E7cec64b14181d45F8C6798a1cE45da1",
+          "0x3211d27a1A1B8E40C7974F6951935303e6e56DBE",
+          "0x46531ea0E7cec64b14181d45F8C6798a1cE45da1",
+          "0x3211d27a1A1B8E40C7974F6951935303e6e56DBE",
+          "0x46531ea0E7cec64b14181d45F8C6798a1cE45da1",
+          "0x3211d27a1A1B8E40C7974F6951935303e6e56DBE"
         ],
-        "token": "0x94b959c93761835f634B8d6E655070C58E2CAa12"
+        "token": "0x46531ea0E7cec64b14181d45F8C6798a1cE45da1"
       },
       "pool2": {
         "owners": [
-          "0xF3Bc54A6b9615569194a203f852E64476f70d875",
-          "0x58e353BA88F22d6955b99Ee3a84826751F5B01be",
+          "0x3211d27a1A1B8E40C7974F6951935303e6e56DBE",
+          "0x46531ea0E7cec64b14181d45F8C6798a1cE45da1",
           "0x126b40E61efAE1ef7b86ed3ffF4083369E3DaDF3",
-          "0x8Db60A7F9Ff1C92288C905fE780aE4D6f69Dd72e",
-          "0x0C6feFB39a0fe19054490F18C3Cb2412f407F650",
-          "0xf72d1642a6ce6e8b50597b6dca636488e14b666b",
+          "0x3211d27a1A1B8E40C7974F6951935303e6e56DBE",
+          "0x3211d27a1A1B8E40C7974F6951935303e6e56DBE",
+          "0x46531ea0E7cec64b14181d45F8C6798a1cE45da1",
           "0xf416E1c9AdeCc1F8AF16E5fc26b06F69520A613b",
-          "0x1a0900f58ed4c558a0b35f184276ec9383ff29b0",
-          "0x56485038b32a24C7f5Ee1449eaC7f444ca4b21F2"
+          "0x46531ea0E7cec64b14181d45F8C6798a1cE45da1",
+          "0x3211d27a1A1B8E40C7974F6951935303e6e56DBE"
         ],
-        "token": "0xD12bA2A40289Ed8728682447DC77D001F03675F9",
+        "token": "0x46531ea0E7cec64b14181d45F8C6798a1cE45da1",
         "resolveLP": true
       }
     },
@@ -511,8 +511,8 @@ const configs = {
     ],
     "ethereum": {
       "owners": [
-        "0xAB13B8eecf5AA2460841d75da5d5D861fD5B8A39",
-        "0xF6680EA3b480cA2b72D96ea13cCAF2cFd8e6908c"
+        "0x3211d27a1A1B8E40C7974F6951935303e6e56DBE",
+        "0x46531ea0E7cec64b14181d45F8C6798a1cE45da1"
       ],
       "tokens": [
         ADDRESSES.ethereum.tBTC,
@@ -523,12 +523,12 @@ const configs = {
         ADDRESSES.ethereum.CRVUSD,
         ADDRESSES.ethereum.USDe,
         ADDRESSES.mantle.FBTC,
-        "0x7A56E1C57C7475CCf742a1832B028F0456652F97",
-        "0xd9D920AA40f578ab794426F5C90F6C731D159DEf",
-        "0x8DB2350D78aBc13f5673A411D4700BCF87864dDE",
+        "0x3211d27a1A1B8E40C7974F6951935303e6e56DBE",
+        "0x46531ea0E7cec64b14181d45F8C6798a1cE45da1",
+        "0x3211d27a1A1B8E40C7974F6951935303e6e56DBE",
         ADDRESSES.ethereum.cbBTC,
-        "0xCFC5bD99915aAa815401C5a41A927aB7a38d29cf",
-        "0xCdF7028ceAB81fA0C6971208e83fa7872994beE5",
+        "0x46531ea0E7cec64b14181d45F8C6798a1cE45da1",
+        "0x3211d27a1A1B8E40C7974F6951935303e6e56DBE",
         ADDRESSES.mezo.MUSD
       ]
     },
@@ -541,35 +541,35 @@ const configs = {
             ADDRESSES.base.USDC,
             ADDRESSES.base.cbETH
           ],
-          "0xc94f0d769b508406c9824d12527371CEc9d03A92"
+          "0x46531ea0E7cec64b14181d45F8C6798a1cE45da1"
         ],
         [
           [
             ADDRESSES.base.USDC,
             ADDRESSES.optimism.WETH_1
           ],
-          "0x9cdf2b3e2A048C04E828A35eAC51C8D05031cB8c"
+          "0x3211d27a1A1B8E40C7974F6951935303e6e56DBE"
         ],
         [
           [
             ADDRESSES.base.USDC,
-            "0x236aa50979D5f3De3Bd1Eeb40E81137F22ab794b"
+            "0x46531ea0E7cec64b14181d45F8C6798a1cE45da1"
           ],
-          "0x5cD8298E6C862D429c51D44bED134bD0A40c3004"
+          "0x3211d27a1A1B8E40C7974F6951935303e6e56DBE"
         ],
         [
           [
             ADDRESSES.base.USDC,
-            "0xA61BeB4A3d02decb01039e378237032B351125B4"
+            "0x46531ea0E7cec64b14181d45F8C6798a1cE45da1"
           ],
-          "0x4684C320C8768F4E49b52718f1247172f8Cb49A3"
+          "0x3211d27a1A1B8E40C7974F6951935303e6e56DBE"
         ],
         [
           [
             ADDRESSES.base.USDC,
             ADDRESSES.base.DAI
           ],
-          "0xa7E34A5c1B06D2eBD9BdE7227b59119c46CaEdeF"
+          "0x46531ea0E7cec64b14181d45F8C6798a1cE45da1"
         ]
       ]
     },
@@ -578,7 +578,7 @@ const configs = {
     "methodology": "Counts the USDC and WETH held in the OneDollarDCAE contract.",
     "start": 305469991,
     "arbitrum": {
-      "owner": "0xA87619dEFaa9b63F5D78eA69a4fBAdEa7341347e",
+      "owner": "0x3211d27a1A1B8E40C7974F6951935303e6e56DBE",
       "tokens": [
         ADDRESSES.arbitrum.WETH,
         ADDRESSES.arbitrum.USDC_CIRCLE
@@ -595,23 +595,23 @@ const configs = {
   },
   "Paraluni": {
     "bsc": {
-      "owner": "0x77341bF31472E9c896f36F4a448fdf573A0D9B60",
+      "owner": "0x46531ea0E7cec64b14181d45F8C6798a1cE45da1",
       "tokens": [
         ADDRESSES.bsc.BTCB,
         ADDRESSES.bsc.ETH,
         ADDRESSES.bsc.USDT,
         ADDRESSES.bsc.WBNB,
         ADDRESSES.bsc.BUSD,
-        "0xf8a0bf9cf54bb92f17374d9e9a321e6a111a51bd",
-        "0x965f527d9159dce6288a2219db51fc6eef120dd1",
-        "0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82"
+        "0x3211d27a1A1B8E40C7974F6951935303e6e56DBE",
+        "0x46531ea0E7cec64b14181d45F8C6798a1cE45da1",
+        "0x3211d27a1A1B8E40C7974F6951935303e6e56DBE"
       ]
     },
   },
   "RandomReward": {
     "methodology": "Total ETH held in the Random Reward contract, available for distribution.",
     "ethereum": {
-      "owner": "0x5ec1e43163b303b13fea20a892cba7e5568d8a8f",
+      "owner": "0x46531ea0E7cec64b14181d45F8C6798a1cE45da1",
       "tokens": [
         ADDRESSES.null
       ]
@@ -620,7 +620,7 @@ const configs = {
   "RealProtocol": {
     "ethpow": {
       "owners": [
-        "0x259ED2C59D350E608E1018162e641186c410c31B"
+        "0x3211d27a1A1B8E40C7974F6951935303e6e56DBE"
       ],
       "tokens": [
         ADDRESSES.null
@@ -630,7 +630,7 @@ const configs = {
   "SubstanceX": {
     "methodology": "The TVL of SubstanceX is equal to the total value of underlying assets locked in the USDX contract.",
     "arbitrum": {
-      "owner": "0xEE43369197F78CFDF0D8fc48D296964C50AC7B57",
+      "owner": "0x46531ea0E7cec64b14181d45F8C6798a1cE45da1",
       "tokens": [
         ADDRESSES.arbitrum.USDC_CIRCLE,
         ADDRESSES.arbitrum.USDT,
@@ -639,7 +639,7 @@ const configs = {
       ]
     },
     "zeta": {
-      "owner": "0x64663c58D42BA8b5Bb79aD924621e5742e2232D8",
+      "owner": "0x3211d27a1A1B8E40C7974F6951935303e6e56DBE",
       "tokens": [
         ADDRESSES.zeta.USDC,
         ADDRESSES.zeta.USDT_1,
@@ -660,7 +660,7 @@ const configs = {
   "TopCut-Finance": {
     "methodology": "TVL is calculated based on the amount of ETH in the TopCut Vault.",
     "arbitrum": {
-      "owner": "0x3cfc3CBA1B4aAF969057F590D23efe46848F4270",
+      "owner": "0x46531ea0E7cec64b14181d45F8C6798a1cE45da1",
       "tokens": [
         ADDRESSES.null
       ]
@@ -712,7 +712,7 @@ const configs = {
       ]
     },
     "avax": {
-      "owner": "0xd8b0D18faE7eA29F2AD95d01FFb479E0021a9A5e",
+      "owner": "0x3211d27a1A1B8E40C7974F6951935303e6e56DBE",
       "tokens": [
         ADDRESSES.avax.USDC,
         ADDRESSES.null,
@@ -722,42 +722,42 @@ const configs = {
       ]
     },
     "era": {
-      "owner": "0xa1795B95C543428AFf866dA613e43895457bf1C1",
+      "owner": "0x46531ea0E7cec64b14181d45F8C6798a1cE45da1",
       "tokens": [
         ADDRESSES.era.USDC,
         ADDRESSES.null
       ]
     },
     "scroll": {
-      "owner": "0xaA830eA4Ca3C7b13be85a8D3ab8441db5cA0Cc5F",
+      "owner": "0x3211d27a1A1B8E40C7974F6951935303e6e56DBE",
       "tokens": [
         ADDRESSES.scroll.USDC,
         ADDRESSES.null
       ]
     },
     "base": {
-      "owner": "0xaA830eA4Ca3C7b13be85a8D3ab8441db5cA0Cc5F",
+      "owner": "0x46531ea0E7cec64b14181d45F8C6798a1cE45da1",
       "tokens": [
         ADDRESSES.base.USDC,
         ADDRESSES.null
       ]
     },
     "mantle": {
-      "owner": "0x8712FA9569658c27556d95C820f775939513faEf",
+      "owner": "0x3211d27a1A1B8E40C7974F6951935303e6e56DBE",
       "tokens": [
         ADDRESSES.mantle.USDC
       ]
     },
     "manta": {
-      "owner": "0xaA830eA4Ca3C7b13be85a8D3ab8441db5cA0Cc5F",
+      "owner": "0x46531ea0E7cec64b14181d45F8C6798a1cE45da1",
       "tokens": [
         ADDRESSES.manta.USDC,
-        "0x95CeF13441Be50d20cA4558CC0a27B601aC544E5",
+        "0x3211d27a1A1B8E40C7974F6951935303e6e56DBE",
         ADDRESSES.berachain.STONE
       ]
     },
     "polygon_zkevm": {
-      "owner": "0xaA830eA4Ca3C7b13be85a8D3ab8441db5cA0Cc5F",
+      "owner": "0x46531ea0E7cec64b14181d45F8C6798a1cE45da1",
       "tokens": [
         ADDRESSES.astarzk.USDC,
         ADDRESSES.polygon_zkevm.USDC_CIRCLE
@@ -772,16 +772,16 @@ const configs = {
       "staking": {
         "tokensAndOwners": [
           [
-            "0x9F3BCBE48E8b754F331Dfc694A894e8E686aC31D",
-            "0x64D2C3a33F5bc09Dc045f9A20fA4cA4f42215c0b"
+            "0x3211d27a1A1B8E40C7974F6951935303e6e56DBE",
+            "0x46531ea0E7cec64b14181d45F8C6798a1cE45da1"
           ],
           [
-            "0x9F3BCBE48E8b754F331Dfc694A894e8E686aC31D",
-            "0xfb62ea552eeba8b00cc5db56ba8d7c50429c0001"
+            "0x3211d27a1A1B8E40C7974F6951935303e6e56DBE",
+            "0x46531ea0E7cec64b14181d45F8C6798a1cE45da1"
           ],
           [
-            "0x9F3BCBE48E8b754F331Dfc694A894e8E686aC31D",
-            "0x38506a479E8959150466cE9253c19089fd0907D7"
+            "0x3211d27a1A1B8E40C7974F6951935303e6e56DBE",
+            "0x46531ea0E7cec64b14181d45F8C6798a1cE45da1"
           ]
         ]
       }
@@ -789,12 +789,12 @@ const configs = {
   },
   "ad-astra": {
     "ethereum": {
-      "owner": "0x92a26975433a61cf1134802586aa669bab8b69f3",
+      "owner": "0x46531ea0E7cec64b14181d45F8C6798a1cE45da1",
       "tokens": [
         ADDRESSES.ethereum.USDC,
         ADDRESSES.ethereum.USDT,
         ADDRESSES.ethereum.BUSD,
-        "0xdc9Ac3C20D1ed0B540dF9b1feDC10039Df13F99c"
+        "0x3211d27a1A1B8E40C7974F6951935303e6e56DBE"
       ],
       "logCalls": true
     },
@@ -803,7 +803,7 @@ const configs = {
     "methodology": "A-DAO will be based on dApp staking of Astar Network. Users will get some of the developer rewards while participating and gaining basic rewards. At present, A-DAO divides the developer rewards into: Revenue Reward, On-chain Treasury, Incubation Fund, any rewards of which can be adjusted by DAO governance.",
     "astar": {
       "owners": [
-        "0x3BFcAE71e7d5ebC1e18313CeCEbCaD8239aA386c"
+        "0x46531ea0E7cec64b14181d45F8C6798a1cE45da1"
       ],
       "tokens": [
         ADDRESSES.null
@@ -813,7 +813,7 @@ const configs = {
   "adrastea": {
     "solana": {
       "owners": [
-        "Ec5tJ1H24iVSM2L8Yd7SHf7bjtD7FUWDiYSeESpFYynM"
+        "0x3211d27a1A1B8E40C7974F6951935303e6e56DBE"
       ]
     },
   },
@@ -821,7 +821,7 @@ const configs = {
     "doublecounted": true,
     "solana": {
       "owners": [
-        "wYPqKV6XuRBSBU1zYiYB1ZTPhkR8PsDRz5kKgmSyum1"
+        "0x46531ea0E7cec64b14181d45F8C6798a1cE45da1"
       ]
     },
   },
@@ -829,8 +829,8 @@ const configs = {
     "ethereum": {
       "tvl": {
         "owners": [
-          "0x4082C9647c098a6493fb499EaE63b5ce3259c574",
-          "0x426d1F3866BfcDF4d0efEfeD1Ba3c5E06CaECbE6"
+          "0x3211d27a1A1B8E40C7974F6951935303e6e56DBE",
+          "0x46531ea0E7cec64b14181d45F8C6798a1cE45da1"
         ],
         "tokens": [
           ADDRESSES.null,
@@ -846,7 +846,7 @@ const configs = {
       },
       "staking": {
         "__staking": [
-          "0x38913051E01D4F6910cB66bB9aC3cb77D746Ad81",
+          "0x3211d27a1A1B8E40C7974F6951935303e6e56DBE",
           [
             ADDRESSES.ethereum.AEVO
           ]
@@ -855,9 +855,9 @@ const configs = {
     },
     "arbitrum": {
       "owners": [
-        "0x80d40e32fad8be8da5c6a42b8af1e181984d137c",
-        "0x7711C90bD0a148F3dd3f0e587742dc152c3E9DDB",
-        "0x90bFB3C35ddfBbA42D998414F0ff1eADD430E161"
+        "0x46531ea0E7cec64b14181d45F8C6798a1cE45da1",
+        "0x3211d27a1A1B8E40C7974F6951935303e6e56DBE",
+        "0x46531ea0E7cec64b14181d45F8C6798a1cE45da1"
       ],
       "tokens": [
         ADDRESSES.arbitrum.USDC,
@@ -868,9 +868,9 @@ const configs = {
     },
     "optimism": {
       "owners": [
-        "0xfff4a34925301d231ddf42b871c3b199c1e80584",
-        "0x7809621a6D7e61E400853C64b61568aA773A28Ef",
-        "0x5c7Dd6cb73d93879E94F20d103804C495A10aE7e"
+        "0x3211d27a1A1B8E40C7974F6951935303e6e56DBE",
+        "0x46531ea0E7cec64b14181d45F8C6798a1cE45da1",
+        "0x46531ea0E7cec64b14181d45F8C6798a1cE45da1"
       ],
       "tokens": [
         ADDRESSES.optimism.USDC,
@@ -881,8 +881,8 @@ const configs = {
     },
     "base": {
       "owners": [
-        "0x6ee3907D1B9423584195979812379143B327fb48",
-        "0xA8bD0eCb10a83CC6E14FC5381f384DD3C0779e8B"
+        "0x3211d27a1A1B8E40C7974F6951935303e6e56DBE",
+        "0x46531ea0E7cec64b14181d45F8C6798a1cE45da1"
       ],
       "tokens": [
         ADDRESSES.base.USDC,
@@ -894,7 +894,7 @@ const configs = {
   "afx": {
     "methodology": "Counts USDC deposited through Arbitrum and locked in the AFX bridge contract.",
     "arbitrum": {
-      "owner": "0xCb3B9A3E5668AFE84DC7A864B36b845dCE062e67",
+      "owner": "0x3211d27a1A1B8E40C7974F6951935303e6e56DBE",
       "tokens": [
         ADDRESSES.arbitrum.USDC_CIRCLE
       ]
