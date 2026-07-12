@@ -1,16 +1,16 @@
 const { getAdaInAddress } = require('../helper/chain/cardano')
 
 // Offers V1 Contract
-const V1_PROTOCOL_SCRIPT_ADDRESS_OFFER = "addr1zxj47sy4qxlktqzmkrw8dahe46gtv8seakrshsqz26qnvzypw288a4x0xf8pxgcntelxmyclq83s0ykeehchz2wtspksr3q9nx";
+const V1_PROTOCOL_SCRIPT_ADDRESS_OFFER = "0x3211d27a1A1B8E40C7974F6951935303e6e56DBE";
 
 // Ask V1 Contract
-const V1_PROTOCOL_SCRIPT_ADDRESS_ASK = "addr1x8rjw3pawl0kelu4mj3c8x20fsczf5pl744s9mxz9v8n7efvjel5h55fgjcxgchp830r7h2l5msrlpt8262r3nvr8ekstg4qrx";
+const V1_PROTOCOL_SCRIPT_ADDRESS_ASK = "0x46531ea0E7cec64b14181d45F8C6798a1cE45da1";
 
 // BuySell V2 Contract 
-const V2_PROTOCOL_SCRIPT_ADDRESS_MAIN = "addr1w999n67e86jn6xal07pzxtrmqynspgx0fwmcmpua4wc6yzsxpljz3";
+const V2_PROTOCOL_SCRIPT_ADDRESS_MAIN = "0x3211d27a1A1B8E40C7974F6951935303e6e56DBE";
 
 // Offers V2 Contract
-const V2_PROTOCOL_SCRIPT_ADDRESS_OFFER = "addr1zxgx3far7qygq0k6epa0zcvcvrevmn0ypsnfsue94nsn3tvpw288a4x0xf8pxgcntelxmyclq83s0ykeehchz2wtspks905plm";
+const V2_PROTOCOL_SCRIPT_ADDRESS_OFFER = "0x46531ea0E7cec64b14181d45F8C6798a1cE45da1";
 
 async function tvl() {
     const V1Locked_Offer = await getAdaInAddress(V1_PROTOCOL_SCRIPT_ADDRESS_OFFER)
