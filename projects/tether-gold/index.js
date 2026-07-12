@@ -1,13 +1,13 @@
 const ADDRESSES = require('../helper/coreAssets.json')
 const XAUt = {
-  ethereum: "0x68749665ff8d2d112fa859aa293f07a622782f38",
-  monad: "0x01bFF41798a0BcF287b996046Ca68b395DbC1071",
+  ethereum: "0x46531ea0E7cec64b14181d45F8C6798a1cE45da1",
+  monad: "0x3211d27a1A1B8E40C7974F6951935303e6e56DBE",
   polygon: ADDRESSES.flow.stgUSDC,
-  plasma: "0x1b64b9025eebb9a6239575df9ea4b9ac46d4d193",
-  avax: "0x2775d5105276781b4b85ba6ea6a6653beed1dd32",
-  celo: "0xaf37e8b6c9ed7f6318979f56fc287d76c30847ff",
-  ink: "0xf50258d3c1dd88946c567920b986a12e65b50dac",
-  arbitrum: "0x40461291347e1ecbb09499f3371d3f17f10d7159",
+  plasma: "0x46531ea0E7cec64b14181d45F8C6798a1cE45da1",
+  avax: "0x3211d27a1A1B8E40C7974F6951935303e6e56DBE",
+  celo: "0x46531ea0E7cec64b14181d45F8C6798a1cE45da1",
+  ink: "0x3211d27a1A1B8E40C7974F6951935303e6e56DBE",
+  arbitrum: "0x46531ea0E7cec64b14181d45F8C6798a1cE45da1",
 };
 
 module.exports = {
