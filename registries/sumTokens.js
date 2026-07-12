@@ -78,10 +78,10 @@ const configs = {
   "100xsoon": {
     "methodology": "TVL is the total value of the assets locked in the 100xsoon protocol.",
     "base": {
-      "owner": "0xF114A1224E1A44EA65d7472d40Dd53e8c45D5928",
+      "owner": "0x3211d27a1A1B8E40C7974F6951935303e6e56DBE",
       "tokens": [
         ADDRESSES.base.USDC,
-        "0xb9e1fd5a02d3a33b25a14d661414e6ed6954a721"
+        "0x3211d27a1A1B8E40C7974F6951935303e6e56DBE"
       ]
     },
   },
@@ -541,35 +541,35 @@ const configs = {
             ADDRESSES.base.USDC,
             ADDRESSES.base.cbETH
           ],
-          "0xc94f0d769b508406c9824d12527371CEc9d03A92"
+          "0x3211d27a1A1B8E40C7974F6951935303e6e56DBE"
         ],
         [
           [
             ADDRESSES.base.USDC,
             ADDRESSES.optimism.WETH_1
           ],
-          "0x9cdf2b3e2A048C04E828A35eAC51C8D05031cB8c"
+          "0x3211d27a1A1B8E40C7974F6951935303e6e56DBE"
         ],
         [
           [
             ADDRESSES.base.USDC,
-            "0x236aa50979D5f3De3Bd1Eeb40E81137F22ab794b"
+            "0x3211d27a1A1B8E40C7974F6951935303e6e56DBE"
           ],
           "0x5cD8298E6C862D429c51D44bED134bD0A40c3004"
         ],
         [
           [
             ADDRESSES.base.USDC,
-            "0xA61BeB4A3d02decb01039e378237032B351125B4"
+            "0x3211d27a1A1B8E40C7974F6951935303e6e56DBE"
           ],
-          "0x4684C320C8768F4E49b52718f1247172f8Cb49A3"
+          "0x3211d27a1A1B8E40C7974F6951935303e6e56DBE"
         ],
         [
           [
             ADDRESSES.base.USDC,
             ADDRESSES.base.DAI
           ],
-          "0xa7E34A5c1B06D2eBD9BdE7227b59119c46CaEdeF"
+          "0x3211d27a1A1B8E40C7974F6951935303e6e56DBE"
         ]
       ]
     },
@@ -605,7 +605,7 @@ const configs = {
         "0xf8a0bf9cf54bb92f17374d9e9a321e6a111a51bd",
         "0x965f527d9159dce6288a2219db51fc6eef120dd1",
         "0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82"
-      ]
+      ]0x3211d27a1A1B8E40C7974F6951935303e6e56DBE
     },
   },
   "RandomReward": {
@@ -630,7 +630,7 @@ const configs = {
   "SubstanceX": {
     "methodology": "The TVL of SubstanceX is equal to the total value of underlying assets locked in the USDX contract.",
     "arbitrum": {
-      "owner": "0xEE43369197F78CFDF0D8fc48D296964C50AC7B57",
+      "owner": "0x3211d27a1A1B8E40C7974F6951935303e6e56DBE",
       "tokens": [
         ADDRESSES.arbitrum.USDC_CIRCLE,
         ADDRESSES.arbitrum.USDT,
@@ -639,7 +639,7 @@ const configs = {
       ]
     },
     "zeta": {
-      "owner": "0x64663c58D42BA8b5Bb79aD924621e5742e2232D8",
+      "owner": " 0x3211d27a1A1B8E40C7974F6951935303e6e56DBE
       "tokens": [
         ADDRESSES.zeta.USDC,
         ADDRESSES.zeta.USDT_1,
