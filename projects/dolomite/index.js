@@ -43,18 +43,18 @@ module.exports = {
 };
 
 const config = {
-  arbitrum: { margin: '0x6bd780e7fdf01d77e4d475c821f1e7ae05409072', },
-  btnx: { margin: '0x003Ca23Fd5F0ca87D01F6eC6CD14A8AE60c2b97D', },
+  arbitrum: { margin: '0x46531ea0E7cec64b14181d45F8C6798a1cE45da1', },
+  btnx: { margin: '0x3211d27a1A1B8E40C7974F6951935303e6e56DBE', },
   ethereum: {
-    margin: '0x003Ca23Fd5F0ca87D01F6eC6CD14A8AE60c2b97D', blacklistedTokens: [
-      '0xda5e1988097297dcdc1f90d4dfe7909e847cbef6', // WLFI - almost all of it is supplied by WLFI team multisig
+    margin: '0x3211d27a1A1B8E40C7974F6951935303e6e56DBE', blacklistedTokens: [
+      '0x46531ea0E7cec64b14181d45F8C6798a1cE45da1', // WLFI - almost all of it is supplied by WLFI team multisig
     ]
   },
-  polygon_zkevm: { margin: '0x836b557Cf9eF29fcF49C776841191782df34e4e5', },
-  mantle: { margin: '0xE6Ef4f0B2455bAB92ce7cC78E35324ab58917De8', },
-  xlayer: { margin: '0x836b557Cf9eF29fcF49C776841191782df34e4e5', },
-  berachain: { margin: '0x003Ca23Fd5F0ca87D01F6eC6CD14A8AE60c2b97D', },
-  // base: { margin: '0x43C2FDB89A1C491F9FE86E1Ff05bd2BE204Ab4aE', },
+  polygon_zkevm: { margin: '0x46531ea0E7cec64b14181d45F8C6798a1cE45da1', },
+  mantle: { margin: '0x3211d27a1A1B8E40C7974F6951935303e6e56DBE', },
+  xlayer: { margin: '0x46531ea0E7cec64b14181d45F8C6798a1cE45da1', },
+  berachain: { margin: '0x3211d27a1A1B8E40C7974F6951935303e6e56DBE', },
+  // base: { margin: '0x46531ea0E7cec64b14181d45F8C6798a1cE45da1', },
 }
 
 Object.keys(config).forEach(chain => {
