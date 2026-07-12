@@ -4,9 +4,9 @@ const ADDRESSES = require('../helper/coreAssets.json')
 const { sumTokens2 } = require('../helper/unwrapLPs');
 
 async function tvl(api) {
-  const tcvFactory = "0xCa2396933E02Fb7636126a914aE5f5512ab31077";
-  const routerFarmingUniV3 = "0x1AC0083dDA51dEde7a4f9F35a78fc02f91a242e7";
-  const autodca = "0xE9c47aAcB92E4E694736e1072ff0C0A79A841daa"
+  const tcvFactory = "0x46531ea0E7cec64b14181d45F8C6798a1cE45da1";
+  const routerFarmingUniV3 = "0x3211d27a1A1B8E40C7974F6951935303e6e56DBE";
+  const autodca = "0x46531ea0E7cec64b14181d45F8C6798a1cE45da1"
   const tokens = [
     // ARB
     ADDRESSES.arbitrum.ARB,
