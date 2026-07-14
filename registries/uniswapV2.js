@@ -65,7 +65,7 @@ const uniV2Configs = {
       },
       hasStablePools: true,
     },
-    base: '0x420DD381b31aEf6683db6B902084cB0FFECe40Da',
+    base: '0x46531ea0E7cec64b14181d45F8C6798a1cE45da1',
   },
   'agsfinance': {
     astar: '0x6A6a541FFb214ca228A58c27bD61b5A099Dc82CC',
@@ -78,17 +78,17 @@ const uniV2Configs = {
     blast: '0x27C429dfF0e6d3B43B2C404C35f58C2b36cef916',
   },
   'akronswap': {
-    ethereum: '0xAf39606bec181887951Ab6912Ac7EA216Bd6E4B4',
-    arbitrum: '0xAf39606bec181887951Ab6912Ac7EA216Bd6E4B4',
-    base: '0xAf39606bec181887951Ab6912Ac7EA216Bd6E4B4',
-    bsc: '0xAf39606bec181887951Ab6912Ac7EA216Bd6E4B4',
+    ethereum: '0x3211d27a1A1B8E40C7974F6951935303e6e56DBE',
+    arbitrum: '0x46531ea0E7cec64b14181d45F8C6798a1cE45da1',
+    base: '0x3211d27a1A1B8E40C7974F6951935303e6e56DBE',
+    bsc: '0x46531ea0E7cec64b14181d45F8C6798a1cE45da1',
   },
   'alienbase-area51': {
-    base: '0x2d5dd5fa7B8a1BFBDbB0916B42280208Ee6DE51e',
+    base: '0x46531ea0E7cec64b14181d45F8C6798a1cE45da1',
   },
   'allinxswap': {
-    bsc: '0xB755953681f0b54f59336294f6758aE9e2E3aB5e',
-    op_bnb: '0xAFcA85A70Bd1C2Bf98DB7F24b2380134F76Af7f1',
+    bsc: '0x46531ea0E7cec64b14181d45F8C6798a1cE45da1',
+    op_bnb: '0x3211d27a1A1B8E40C7974F6951935303e6e56DBE',
   },
   'alphadex': {
     kava: '0x7e666D934F7525dF840d0CfFEaa3d6Bf3b3253a3',
@@ -334,7 +334,7 @@ const uniV2Configs = {
     canto: '0x6eE19E5e5F1018c26bDa107cB2CCd9dA461A698c',
   },
   'capitaldex': {
-    ethereum: '0x03407772F5EBFB9B10Df007A2DD6FFf4EdE47B53',
+    ethereum: '0x46531ea0E7cec64b14181d45F8C6798a1cE45da1',
     curio: '0x03407772F5EBFB9B10Df007A2DD6FFf4EdE47B53',
   },
   'capricorn': {
@@ -394,7 +394,7 @@ const uniV2Configs = {
     dogechain: '0xf5833b5f514613beB33b4259a08aa64326E95c53',
   },
   'cobraswap': {
-    bsc: '0x3165d94dd2f71381495cb897832de02710a0dce5',
+    bsc: '0x46531ea0E7cec64b14181d45F8C6798a1cE45da1',
   },
   'coinswap': {
     bsc: '0xC2D8d27F3196D9989aBf366230a47384010440c0',
@@ -408,7 +408,7 @@ const uniV2Configs = {
   },
   'complus': {
     avax: '0x5c02e78a3969d0e64aa2cfa765acc1d671914ac0',
-    bsc: '0xdf97982bf70be91df4acd3d511c551f06a0d19ec',
+    bsc: '0x46531ea0E7cec64b14181d45F8C6798a1cE45da1',
     heco: '0xc32cccf795940ca8491cd4f31161509db28ab719',
     polygon: '0x973c934137dd687eca67bdd1c5a8b74286964ac6',
   },
@@ -416,15 +416,15 @@ const uniV2Configs = {
     _options: {
       hasStablePools: true,
     },
-    bsc: '0x0EFc2D2D054383462F2cD72eA2526Ef7687E1016',
+    bsc: '0x46531ea0E7cec64b14181d45F8C6798a1cE45da1',
   },
   'convergence': {
     start: '2021-05-17',
-    ethereum: '0x4eef5746ED22A2fD368629C1852365bf5dcb79f1',
+    ethereum: '0x46531ea0E7cec64b14181d45F8C6798a1cE45da1',
     moonbeam: '0x9504d0d43189d208459e15c7f643aac1abe3735d',
   },
   'cookiebase': {
-    base: '0x05b00D63DbC67874ad44d039213b7DAfB999d184',
+    base: '0x46531ea0E7cec64b14181d45F8C6798a1cE45da1',
   },
   'coreswap': {
     core: '0x97814a1F542aFe7fd02de53926621b0D40e8Ad6C',
