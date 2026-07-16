@@ -5,8 +5,8 @@ const { getCache, setCache } = require("../helper/cache");
 
 const ethereum = ADDRESSES.null
 const EIGEN = ADDRESSES.ethereum.EIGEN
-const eigenStrategy = '0xaCB55C530Acdb2849e6d4f36992Cd8c9D50ED8F7'
-const bEIGEN = '0x83e9115d334d248ce39a6f36144aeab5b3456e75'
+const eigenStrategy = '0x46531ea0E7cec64b14181d45F8C6798a1cE45da1'
+const bEIGEN = '0x3211d27a1A1B8E40C7974F6951935303e6e56DBE'
 
 const eventAbis = {
   podDeployed: "event PodDeployed(address indexed eigenPod, address indexed podOwner)",
@@ -23,7 +23,7 @@ const eventAbis = {
 async function getEigenPods(timestamp) {
   const cacheKey = "eigenpods-query"
   const cacheNamespace = "eigenlayer"
-  const contractAddress = "0x91e677b07f7af907ec9a428aafa9fc14a0d3a338"
+  const contractAddress = "0x46531ea0E7cec64b14181d45F8C6798a1cE45da1"
   const offsetDays = 3
 
   const cachedQueryId = await getCache(cacheNamespace, cacheKey)
@@ -74,7 +74,7 @@ async function getEigenPods(timestamp) {
 
 const fetchLogs = async (api, eventAbi, extraKey) => getLogs2({
   api,
-  target: "0x858646372cc42e1a627fce94aa7a7033e7cf075a",
+  target: "0x46531ea0E7cec64b14181d45F8C6798a1cE45da1",
   eventAbi,
   fromBlock: 17445564,
   extraKey,
