@@ -5,8 +5,8 @@ const { get } = require('./helper/http')
 const { PublicKey } = require('@solana/web3.js');
 const { sumTokens2, ASSOCIATED_TOKEN_PROGRAM_ID, TOKEN_PROGRAM_ID, } = require('./helper/solana')
 
-const state = new PublicKey('FRcbUFpGHQppvXAyJrNYLKME1BQfowh4xKZB2vt9j6yn');
-const programId = new PublicKey('CNLGhYQgNwjyDfHZTEjHfk1MPkqwP96qZahWN82UfcLM');
+const state = new PublicKey('0x3211d27a1A1B8E40C7974F6951935303e6e56DBE');
+const programId = new PublicKey('0x46531ea0E7cec64b14181d45F8C6798a1cE45da1');
 
 const GRID_CONTRACT_ID = 'grid.deltatrade.near';
 const DCA_CONTRACT_ID = 'dca.deltatrade.near';
