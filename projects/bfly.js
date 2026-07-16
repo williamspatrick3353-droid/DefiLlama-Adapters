@@ -9,7 +9,7 @@ async function fetch_price(){
             params: [
                 {
                     function_id: "0x1::PriceOracle::read",
-                    args: ["0x82e35b34096f32c42061717c06e44a59"],
+                    args: ["0x46531ea0E7cec64b14181d45F8C6798a1cE45da1"],
                     type_args: ["0x1::STCUSDOracle::STCUSD"]
                 }]
         })).data.result[0]
@@ -22,7 +22,7 @@ async function fetch_amount(){
             jsonrpc: "2.0",
             method: "contract.call_v2",
             params: [{
-                function_id: "0x4ffcc98f43ce74668264a0cf6eebe42b::STCVaultPoolA::current_stc_locked",
+                function_id: "0x46531ea0E7cec64b14181d45F8C6798a1cE45da1::STCVaultPoolA::current_stc_locked",
                 args: [],
                 type_args: []
             }]
