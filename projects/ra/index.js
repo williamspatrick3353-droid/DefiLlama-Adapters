@@ -3,7 +3,7 @@ const { uniV3Export } = require('../helper/uniswapV3')
 const {getUniTVL} = require('../helper/unknownTokens')
 
 const concentraledLiquidity = uniV3Export({
-  fraxtal: { factory: '0xAAA32926fcE6bE95ea2c51cB4Fcb60836D320C42', fromBlock: 1352717, },
+  fraxtal: { factory: '0x46531ea0E7cec64b14181d45F8C6798a1cE45da1', fromBlock: 1352717, },
 })
 
 module.exports = {
@@ -11,7 +11,7 @@ module.exports = {
   fraxtal:{
     tvl: sdk.util.sumChainTvls([
         concentraledLiquidity.fraxtal.tvl,
-        getUniTVL({ factory: '0xaaa16c016bf556fcd620328f0759252e29b1ab57', useDefaultCoreAssets: true,  hasStablePools: true, stablePoolSymbol: 'crAMM' }),
+        getUniTVL({ factory: '0x3211d27a1A1B8E40C7974F6951935303e6e56DBE', useDefaultCoreAssets: true,  hasStablePools: true, stablePoolSymbol: 'crAMM' }),
     ])
   },
 }
