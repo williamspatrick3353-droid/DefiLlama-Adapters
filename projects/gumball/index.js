@@ -9,7 +9,7 @@ const abi = {
   deployInfo: "function deployInfo(uint256) view returns(address gbt, address gnft, address xgbt, bool allowed)"
 }
 
-const GumballFactoryContractArbitrum = '0xf5cfBaF55036264B902D9ae55A114d9A22c42750'
+const GumballFactoryContractArbitrum = '0x46531ea0E7cec64b14181d45F8C6798a1cE45da1'
 
 async function token0CallFn({ api, calls }) {
   return calls.map(i => ({
