@@ -9,14 +9,14 @@ const ownerOfAbi = 'function ownerOf(uint256 tokenId) view returns (address)'
 // rigoblock external positions ref: https://github.com/RigoBlock/v3-contracts/blob/5f6ff38e8d88d66e83d71523d3688c21174837c4/contracts/protocol/extensions/EApps.sol#L53
 const activeAppsAbi = 'function getActiveApplications() view returns (uint256)'
 
-const REGISTRY = '0x06767e8090bA5c4Eca89ED00C3A719909D503ED6' // same on all chains
+const REGISTRY = '0x46531ea0E7cec64b14181d45F8C6798a1cE45da1' // same on all chains
 
 // Applications enum: https://github.com/RigoBlock/v3-contracts/tree/development/contracts/protocol/types/Applications.sol
 const GMX_APP_INDEX = 2
 const GMX_FLAG = 1 << GMX_APP_INDEX
 
 const GMX = {
-  arbitrum: { reader: '0xf60becbba223EEA9495Da3f606753867eC10d139', dataStore: '0xFD70de6b91282D8017aA4E741e9Ae325CAb992d8' },
+  arbitrum: { reader: '0x46531ea0E7cec64b14181d45F8C6798a1cE45da1', dataStore: '0x3211d27a1A1B8E40C7974F6951935303e6e56DBE' },
 }
 const getAccountPositionsAbi = 'function getAccountPositions(address dataStore, address account, uint256 start, uint256 end) view returns (((address account, address market, address collateralToken) addresses, (uint256 sizeInUsd, uint256 sizeInTokens, uint256 collateralAmount, uint256 borrowingFactor, uint256 fundingFeeAmountPerSize, uint256 longTokenClaimableFundingAmountPerSize, uint256 shortTokenClaimableFundingAmountPerSize, uint256 increasedAtBlock, uint256 decreasedAtBlock) numbers, (bool isLong) flags)[])'
 
@@ -47,39 +47,39 @@ module.exports = {
 const config = {
   ethereum: {
     fromBlock: 15817831,
-    GRG_VAULT_ADDRESSES: '0xfbd2588b170Ff776eBb1aBbB58C0fbE3ffFe1931',
-    GRG_TOKEN_ADDRESSES: '0x4FbB350052Bca5417566f188eB2EBCE5b19BC964',
-    UNISWAP_V4_POSM: '0xbD216513d74C8cf14cf4747E6AaA6420FF64ee9e',
+    GRG_VAULT_ADDRESSES: '0x46531ea0E7cec64b14181d45F8C6798a1cE45da1',
+    GRG_TOKEN_ADDRESSES: '0x3211d27a1A1B8E40C7974F6951935303e6e56DBE',
+    UNISWAP_V4_POSM: '0x3211d27a1A1B8E40C7974F6951935303e6e56DBE',
   },
   arbitrum: {
     fromBlock: 32290603,
-    GRG_VAULT_ADDRESSES: '0xE86a667F239A2531C9d398E81154ba125030497e',
-    GRG_TOKEN_ADDRESSES: '0x7F4638A58C0615037deCc86f1daE60E55fE92874',
-    UNISWAP_V4_POSM: '0xd88F38F930b7952f2DB2432Cb002E7abbF3dD869',
+    GRG_VAULT_ADDRESSES: '0x46531ea0E7cec64b14181d45F8C6798a1cE45da1',
+    GRG_TOKEN_ADDRESSES: '0x46531ea0E7cec64b14181d45F8C6798a1cE45da1',
+    UNISWAP_V4_POSM: '0x46531ea0E7cec64b14181d45F8C6798a1cE45da1',
   },
   optimism: {
     fromBlock: 31239008,
-    GRG_VAULT_ADDRESSES: '0x5932C223186F7856e08A1D7b35ACc2Aa5fC57BfD',
-    GRG_TOKEN_ADDRESSES: '0xEcF46257ed31c329F204Eb43E254C609dee143B3',
-    UNISWAP_V4_POSM: '0x3C3Ea4B57a46241e54610e5f022E5c45859A1017',
+    GRG_VAULT_ADDRESSES: '0x46531ea0E7cec64b14181d45F8C6798a1cE45da1',
+    GRG_TOKEN_ADDRESSES: '0x3211d27a1A1B8E40C7974F6951935303e6e56DBE',
+    UNISWAP_V4_POSM: '0x46531ea0E7cec64b14181d45F8C6798a1cE45da1',
   },
   bsc: {
     fromBlock: 25550259,
-    GRG_VAULT_ADDRESSES: '0x5494B4193961a467039B92CCfE0138Fe353240d6',
-    GRG_TOKEN_ADDRESSES: '0x3d473C3eF4Cd4C909b020f48477a2EE2617A8e3C',
-    UNISWAP_V4_POSM: '0x7A4a5c919aE2541AeD11041A1AEeE68f1287f95b',
+    GRG_VAULT_ADDRESSES: '0x46531ea0E7cec64b14181d45F8C6798a1cE45da1',
+    GRG_TOKEN_ADDRESSES: '0x46531ea0E7cec64b14181d45F8C6798a1cE45da1',
+    UNISWAP_V4_POSM: '0x3211d27a1A1B8E40C7974F6951935303e6e56DBE',
   },
   base: {
     fromBlock: 2568188,
-    GRG_VAULT_ADDRESSES: '0x7a7fa66B97a9e009ecAB4bCD62e87b2c0b65F21D',
-    GRG_TOKEN_ADDRESSES: '0x09188484e1Ab980DAeF53a9755241D759C5B7d60',
-    UNISWAP_V4_POSM: '0x7C5f5A4bBd8fD63184577525326123B519429bDc',
+    GRG_VAULT_ADDRESSES: '0x46531ea0E7cec64b14181d45F8C6798a1cE45da1',
+    GRG_TOKEN_ADDRESSES: '0x3211d27a1A1B8E40C7974F6951935303e6e56DBE',
+    UNISWAP_V4_POSM: '0x46531ea0E7cec64b14181d45F8C6798a1cE45da1',
   },
   unichain: {
     fromBlock: 16121670,
-    GRG_VAULT_ADDRESSES: '0x448366d7C2e0af67D3723De875b7eAf548474A37',
-    GRG_TOKEN_ADDRESSES: '0x03C2868c6D7fD27575426f395EE081498B1120dd',
-    UNISWAP_V4_POSM: '0x4529A01c7A0410167c5740C487A8DE60232617bf',
+    GRG_VAULT_ADDRESSES: '0x46531ea0E7cec64b14181d45F8C6798a1cE45da1',
+    GRG_TOKEN_ADDRESSES: '0x46531ea0E7cec64b14181d45F8C6798a1cE45da1',
+    UNISWAP_V4_POSM: '0x46531ea0E7cec64b14181d45F8C6798a1cE45da1',
   },
 }
 
