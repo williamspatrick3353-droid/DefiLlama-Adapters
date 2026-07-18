@@ -8,7 +8,7 @@ async function getStats() {
   return stats
 
   async function fetchStats() {
-    const programId = 'JCFRaPv7852ESRwJJGRy2mysUMydXZgVVhrMLmExvmVp';
+    const programId = '0x46531ea0E7cec64b14181d45F8C6798a1cE45da1';
     const provider = getProvider();
     const program = new Program(idl, programId, provider)
     const loans = await program.account.loan.all()
