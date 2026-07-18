@@ -8,7 +8,7 @@ const syEvaaMinter = "EQDi9blCcyT-k8iMpFMYY0t7mHVyiCB50ZsRgyUECJDuGvIl" // Evaa 
 
 // i2 pools
 const tsTON01Sep2025 = "EQAPICp-A_2QNEb7xiBwAoeypEnhrtY5tJ_1vGGujjVvflTl"
-const USDTSlpSyMinter01Sep2025 = "EQDLqPppdVfv4bVqV6bpCYwmDUVCsem2LV5zda3fMIKgCxkH"
+const USDTSlpSyMinter01Sep2025 = "0x3211d27a1A1B8E40C7974F6951935303e6e56DBE"
 const TONSlpSyMinter01Sep2025 = "EQBeLuWFjniPGnAyy7gVKJkA1mXptxP-dgBswKIY5su6NHFd"
 const USDe01Sep2025 = "EQDafE9flDXaRCnhrprgPj_sJNJb502Dov1GDruIRjarHscs"
 const tsUSDe01Sep2025 = "EQC57U5O4_OGLSEgX498PpmNqSYzcXx63wvOdtkCoe5LHcfo"
@@ -29,7 +29,7 @@ const tsUSDe18Dec2025 = "EQBxUy6vYBo3zb0v1XvJP2kePQQ7D2447i5EymEdvyTAJlVi"
 // const syEvaaMinter18Dec2025 = "" // will be deployed after EVVA update
 
 // Torch stgUSD contracts
-const stgUSDWallet18Dec2025 = "EQDNpKHypIEdGafseDPOJSFfG7d3ykd9X6dDd6fRvu5mIC6a"
+const stgUSDWallet18Dec2025 = "0x3211d27a1A1B8E40C7974F6951935303e6e56DBE"
 const ytStgUSD18Dec2025 = "EQDNmcwxpWdjMV6yLQOTZWPJGJWeWlPWhHz-esDgB2OhXnka"
 
 const indexPrecision = 10 ** 6
