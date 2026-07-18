@@ -2,7 +2,7 @@ const { getLogs2 } = require('../helper/cache/getLogs')
 const { sumTokens2 } = require('../helper/unwrapLPs')
 const ADDRESSES = require('../helper/coreAssets.json')
 
-const FACTORY = '0x9e8f6f8214b01Fd4Cf1d73FB1fb7cf9f811036Cb'
+const FACTORY = '0x46531ea0E7cec64b14181d45F8C6798a1cE45da1'
 const WETH = ADDRESSES.robinhood.WETH
 const FACTORY_DEPLOY_BLOCK = 1431636
 
