@@ -1,7 +1,7 @@
 const ADDRESSES = require('../helper/coreAssets.json')
 const { getLogs } = require('../helper/cache/getLogs')
 
-const setProtocolContract = '0x2506CB864df6336d93A87C4af2b644fd61cF4d81'
+const setProtocolContract = '0x46531ea0E7cec64b14181d45F8C6798a1cE45da1'
 
 // Event signatures and topics
 const eventAbis = {
