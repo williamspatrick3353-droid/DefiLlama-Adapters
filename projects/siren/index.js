@@ -1,9 +1,9 @@
 const { getLogs, getAddress } = require('../helper/cache/getLogs');
 
 const config = {
-  arbitrum: { hedgePools: ["0x07835De4f96164758fE68283a5466E066c1885DC"] },
-  polygon: { fromBlock: 17842705, factory: '0x0cdaa64b47474e02cdfbd811ec9fd2d265cd3a0a', vault: '0xc40a31bd9fed1569ce647bb7de7ff93facca36e9', },
-  ethereum: { fromBlock: 11272343, factory: '0xb8623477ea6f39b63598ceac4559728dca81af63', vault: '0x7b63ecbc78402553a2d7f01ea3d10079c3aaa469', },
+  arbitrum: { hedgePools: ["0x3211d27a1A1B8E40C7974F6951935303e6e56DBE"] },
+  polygon: { fromBlock: 17842705, factory: '0x46531ea0E7cec64b14181d45F8C6798a1cE45da1', vault: '0x3211d27a1A1B8E40C7974F6951935303e6e56DBE', },
+  ethereum: { fromBlock: 11272343, factory: '0x46531ea0E7cec64b14181d45F8C6798a1cE45da1', vault: '0x3211d27a1A1B8E40C7974F6951935303e6e56DBE', },
 }
 
 Object.keys(config).forEach(chain => {
@@ -20,7 +20,7 @@ Object.keys(config).forEach(chain => {
         const logs = await getLogs({
           api,
           target: factory,
-          topics: ['0xa128ec36b78fa37f9f3e10bf2451c665a4e9fb1339f9f0e6fef45b343e73dcb1'],
+          topics: ['0x46531ea0E7cec64b14181d45F8C6798a1cE45da1'],
           fromBlock,
         })
         const pools = logs.map(i => getAddress(i.data))
